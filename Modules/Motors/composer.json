@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/motors",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Motors\\": "app/",
+            "Modules\\Motors\\Database\\Factories\\": "database/factories/",
+            "Modules\\Motors\\Database\\Seeders\\": "database/seeders/",
+            "Modules\\Motors\\Policies\\": "Policies/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Motors\\Tests\\": "tests/"
+        }
+    }
+}
